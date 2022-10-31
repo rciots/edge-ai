@@ -1,0 +1,17 @@
+{
+  "name": "rciots-connector",
+  "version": "1.0.0",
+  "description": "Este servicio se encargará de: - montar webserver con WS para que se conecte el controller y Video - Conectar como cliente al connector Gateway del DC - Validarse contra el DC",
+  "main": "client.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "canvas": "^2.10.2",
+    "jimp": "^0.16.2",
+    "jsdom": "^20.0.2"
+  }
+}
